@@ -145,7 +145,7 @@ nav {
 }
 h1 {
 	color: #FFFFFF;
-	font-family: courier-prime;
+	font-family: 'Inconsolata', monospace;
 	font-style: normal;
 	font-size: 11pt;
 	padding-top: 15px;
@@ -179,7 +179,7 @@ h1 {
 }
 p1 {
 	color: #FCFCFC;
-	font-family: inconsolata;
+	font-family: 'Inconsolata', monospace;
 	font-style: normal;
 	font-size: 14px;
 	width: 410px;
@@ -194,7 +194,7 @@ p1 {
 h2 {
 	color: #FFFFFF;
 	font-style: normal;
-	font-family: abel;
+	font-family: 'Abel', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 }
