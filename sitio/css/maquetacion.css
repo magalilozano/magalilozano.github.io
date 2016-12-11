@@ -1,7 +1,5 @@
 @charset "UTF-8";
-@import url("../../webfonts/Moon_Bold_2/stylesheet.css");
 @import url("SpryMenuBarHorizontal.css");
-@import url("../../webfonts/Moon_Light_2/stylesheet.css");
 section {
 	width: 950px;
 	height: 650px;
@@ -181,9 +179,9 @@ h1 {
 }
 p1 {
 	color: #FCFCFC;
-	font-family: courier-prime;
+	font-family: inconsolata;
 	font-style: normal;
-	font-size: 13px;
+	font-size: 14px;
 	width: 410px;
 	height: 180px;
 	float: left;
@@ -191,12 +189,14 @@ p1 {
 	padding-top: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
+	font-weight: 500;
 }
 h2 {
 	color: #FFFFFF;
 	font-style: normal;
-	font-family: courier-prime;
+	font-family: abel;
 	font-size: 16px;
+	font-weight: 400;
 }
 #content {
 	width: 550px;
