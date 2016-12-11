@@ -192,10 +192,10 @@ p1 {
 	font-weight: 500;
 }
 h2 {
-	color: #FFFFFF;
+	color: #5DDDBF;
 	font-style: normal;
 	font-family: 'Abel', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 400;
 }
 #content {
@@ -342,9 +342,9 @@ li {
 }
 h3 {
 	color: #FFFFFF;
-	font-family: courier-prime;
+	font-family: 'Inconsolata', monospace;
 	font-style: normal;
-	font-size: 12pt;
+	font-size: 14pt;
 	width: 215px;
 	text-align: center;
 	margin-left: 62px;
@@ -363,8 +363,8 @@ h3 {
 h4 {
 	width: 200px;
 	color: #F7F7F7;
-	font-size: 9pt;
-	font-family: "Moon Light 2";
+	font-size: 10pt;
+	font-family: 'Abel', sans-serif;
 	margin-bottom: 2px;
 	border-left: 3pt double #FFFFFF;
 	padding-left: 9px;
@@ -372,9 +372,9 @@ h4 {
 }
 p2 {
 	width: 200px;
-	color: #F9F9F9;
-	font-family: "Moon Bold 2";
-	font-size: 10pt;
+	color: #63DEBE;
+	font-family: 'Abel', sans-serif;
+	font-size: 11pt;
 	padding-top: 0px;
 }
 .botonesmenuport {
@@ -382,15 +382,17 @@ p2 {
 }
 td {
 	color: #FFFFFF;
-	font-family: "Moon Bold 2";
 	font-size: 11pt;
 	padding-left: 34px;
 	padding-top: 0px;
+	font-family: inconsolata;
+	font-style: normal;
+	font-weight: 500;
 }
 h5 {
 	color: #66D9B9;
-	font-family: "Moon Bold 2";
-	font-size: 12pt;
+	font-family: 'Abel', sans-serif;
+	font-size: 14pt;
 	border-right: 5pt solid #63DEBE;
 	padding-left: 0px;
 	width: 109px;
@@ -404,8 +406,8 @@ h5 {
 	width: 70px;
 	height: 30px;
 	color: #000000;
-	font-family: "Moon Bold 2";
-	font-size: 10pt;
+	font-family: 'Abel', sans-serif;
+	font-size: 14pt;
 	padding-right: 8px;
 	padding-left: 5px;
 	border: 2pt solid #68DEBD;
@@ -415,7 +417,7 @@ h5 {
 }
 .enviar:hover {
 	color: #000000;
-	font-family: "Moon Bold 2";
+	font-family: 'Abel', sans-serif;
 	background-color: #63DEBE;
 	border: 3pt solid #FFFFFF;
 }
