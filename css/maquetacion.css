@@ -17,6 +17,8 @@ p4 {
 body {
 	background-image: url(../imgs/body.jpg);
 	background-repeat: repeat;
+	margin: 0px;
+	padding-top: 0px;
 }
 header {
 	width: 950px;
