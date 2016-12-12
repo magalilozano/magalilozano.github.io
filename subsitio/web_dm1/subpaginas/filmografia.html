@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="../imagenes/favicon2.ico"
+rel="shortcut icon" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Elsa & Fred - Filmografia</title> <link href="../../maquetacion.css" type="text/css" />
+<link href="../css/maquetacion.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+a:link {
+	color: #8F6291;
+}
+a:visited {
+	color: #663399;
+}
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<style type="text/css">
+<!--
+#slidebox{
+	position: relative;
+	border: 1px solid #ccc;
+	margin-top: -16px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+#slidebox, #slidebox ul {
+	width: 190px;
+	height: 288px;
+	margin-top: 0px;
+}
+#slidebox, #slidebox ul li{
+	width: 190px;
+	height: 288px;
+	margin-top: -15px;
+}
+#slidebox ul li{position:relative; left:0; background:#eee; float:left;list-style: none; padding:15px 28px;  font-family:Verdana, Geneva, sans-serif; font-size:13px;}
+#slidebox .next, #slidebox .previous{position:absolute; z-index:2; display:block; width:21px; height:21px;top:139px;}
+#slidebox .next{
+	right: 0;
+	margin-right: 0px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-image: url(../imagenes/images/slidebox_next.png);
+}
+#slidebox .next:hover{
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-image: url(../imagenes/images/slidebox_next_hover.png);
+}
+#slidebox .previous{
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-image: url(../imagenes/images/slidebox_previous.png);
+}
+#slidebox .previous:hover{
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-image: url(../imagenes/images/slidebox_previous_hover.png);
+}
+#slidebox .thumbs{position:absolute; z-index:2; bottom:10px; right:10px;}
+#slidebox .thumbs a{display:block; margin-left:5px; float:left; font-family:Verdana, Geneva, sans-serif; font-size:9px; text-decoration:none; padding:2px 4px; background:url(slidebox_thumb.png); color:#fff;}
+#slidebox .thumbs a:hover{
+	background-color: #95191B;
+	color: #000;
+}
+#slidebox .thumbs .thumbActive{background:#fff; color:#000; display:block; margin-left:5px; float:left; font-family:Verdana, Geneva, sans-serif; font-size:9px; text-decoration:none; padding:2px 4px;}
+-->
+</style>
+
+<script type="text/javascript" src="../js/jquery-1.5.2.min.js"></script>
+<script type="text/javascript" src="../js/jcarousellite_1.0.1c5.js"></script>
+<script type="text/javascript">
+
+$(function() {
+	$("#slidebox").jCarouselLite({
+		vertical: false,
+		hoverPause:true,
+		btnPrev: ".previous",
+		btnNext: ".next",
+		visible: 1,
+		start: 0,
+		scroll: 1,
+		circular: true,
+		auto:1000,
+		speed:500,				
+		btnGo:
+		    [".1", ".2",
+		    ".3", ".4"],
+		
+		afterEnd: function(a, to, btnGo) {
+				if(btnGo.length <= to){
+					to = 0;
+				}
+				$(".thumbActive").removeClass("thumbActive");
+				$(btnGo[to]).addClass("thumbActive");
+		    }
+	});
+});
+</script>
+</head>
+
+<body onload="MM_preloadImages('../imagenes/botonpelicula.png','../imagenes/botondirector.png','../imagenes/botonfotos.png','../imagenes/redessociales2.png','../imagenes/contacto2.png','../imagenes/personajes1.png','../imagenes/biografia2.png','../imagenes/filmografia2.png','../imagenes/mapadesitio1.png')">
+<div id="contenedor">
+<div id="cabecera">
+ <div id="redessociales"><a href="https://www.facebook.com/pages/Elsa-y-Fred/106162482748571?fref=ts" target="_blank" onmouseover="MM_swapImage('facebook','','../imagenes/redesfb2.png',1)" onmouseout="MM_swapImgRestore()"><img src="../imagenes/redesfb1.png" alt="" width="40" height="40" id="facebook" border=0/></a><a href="https://twitter.com/ElsayFredMexico" target="_blank" onmouseover="MM_swapImage('twitter','','../imagenes/redestw2.png',1)" onmouseout="MM_swapImgRestore()"><img src="../imagenes/redestw1.png" alt="" width="40" height="40" id="twitter" border=0/></a><a href="https://instagram.com/elsayfred/" target="_blank" onmouseover="MM_swapImage('instagram','','../imagenes/redesinst2.png',1)" onmouseout="MM_swapImgRestore()"><img src="../imagenes/redesinst1.png" alt="" width="40" height="40" id="instagram" border=0/></a></div>
+<a href="../index.html"><img src="../imagenes/logo.gif" alt="elsa y fred" width="550" height="87" class="logo" /></a></div>
+<div class="fondosub" id="area2">
+  <div id="botonera2">
+ <a href="director.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('biografia','','../imagenes/biografia2.png',1)"><img src="../imagenes/biografia1.png" alt="" width="120" height="57" id="biografia" /></a><a href="filmografia.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('filmografia','','../imagenes/filmografia2.png',1)"><img src="../imagenes/filmografia1.png" alt="" width="161" height="57" id="filmografia" /></a></div> 
+  
+  <div class="espbio" id="columna2">
+ <br/>
+  <h2><b>Como Guionista:</b></h2>
+  <p1><b>Noche de Ronda</b> <i>(Año 1997)</i><br/>
+  <b>Almejas y Mejillones</b> <i>(Año 2000)</i><br/>
+  <b>Tocar el Cielo</b> <i>(Año 2007)</i><br/>
+  <b>Anita</b> <i>(Año 2009)</i><br/>
+  <b>Viudas</b> <i>(Año 2011)</i><br/>
+  <b>Corazón de León</b> <i>(Año 2013)</i><br/>
+  <h2>Como Director:</h2>
+  <b>Esa Maldita Costilla</b> <i>(Año 1999)</i> <br/>
+  <b>Papá es un Idolo</b> <i>(Año 2000)</i><br/>
+  <b>El día que me amen</b> <i>(Año 2003)</i><br/>
+  <b>Elsa & Fred</b> <i>(Año 2005)</i><p1>
+  </div>
+<div id="division2"><div id="slidebox">
+<div class="next"></div>
+<div class="previous"></div>
+	<ul>
+    	<li><img alt="" src="../imagenes/peli1.png" width="190" height="288" /></li>
+    	<li><img alt="" src="../imagenes/peli2.png" width="190" height="288" /></li>
+    	<li><img alt="" src="../imagenes/peli3.png" width="190" height="288" /></li>
+    	<li><img alt="" src="../imagenes/peli4.png" width="190" height="288" /></li>
+        <li><img alt="" src="../imagenes/peli5.png" width="190" height="288" /></li>
+    	<li><img alt="" src="../imagenes/peli6.png" width="190" height="288" /></li>
+    	<li><img alt="" src="../imagenes/peli7.png" width="190" height="288" /></li>
+    	<li><img alt="" src="../imagenes/peli8.png" width="190" height="288" /></li>
+        <li><img alt="" src="../imagenes/peli9.png" width="190" height="288" /></li>
+    	<li><img alt="" src="../imagenes/peli10.png" width="190" height="288" /></li>
+	</ul>
+</div></div>
+
+</div>
+<div id="botonera">
+<a href="pelicula.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('pelicula','','../imagenes/botonpelicula.png',1)"><img src="../imagenes/botonpelicula2.png" alt="pelicula" width="140" height="66" id="pelicula" /></a> 
+<a href="director.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('director','','../imagenes/botondirector.png',1)"><img src="../imagenes/botondirector2.png" alt="director" width="140" height="66" id="director" /></a><a href="personajes.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('personajes','','../imagenes/personajes1.png',1)"><img src="../imagenes/personajes2.png" alt="personajes" width="140" height="66" id="personajes" /></a><a href="galeria.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('fotos','','../imagenes/botonfotos.png',1)"><img src="../imagenes/botonfotos2.png" alt="fotos" width="141" height="66" id="fotos" /></a>
+<a href="contact.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('contacto','','../imagenes/contacto2.png',1)"><img src="../imagenes/contacto1.png" alt="contacto" width="141" height="66" id="contacto" /></a></div>
+<div id="pie">
+  <div id="pietext">
+    <h1><strong><a href="minisitio.html" target="_blank">Magalí Lozano - Diseño Multimedia I</a></strong> / Elsa & Fred - Copyright 2005</h1></div>
+<div id="mapasitio"><a href="mapadesitio.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('mapadesitio','','../imagenes/mapadesitio1.png',1)"><img src="../imagenes/mapadesitio2.png" alt="Mapa de Sitio" width="51" height="38" id="mapadesitio" title="Mapa de Sirtio" /></a></div>
+</div>
+</div>
+</body>
+
+</html>

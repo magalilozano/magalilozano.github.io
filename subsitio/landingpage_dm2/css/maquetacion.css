@@ -1,0 +1,191 @@
+@import url("webfonts/sorbet/stylesheet.css");
+@import url("webfonts/worstveld/stylesheet.css");
+@import url("webfonts/Blokletters_Potlood/stylesheet.css");
+@import url("Blokletters_Potlood/stylesheet.css");
+@import url("AmaticSC_Regular/stylesheet.css");
+@import url("../webfonts/sorbet/stylesheet.css");
+@import url("../webfonts/worstveld/stylesheet.css");
+@import url("../webfonts/AmaticSC_Regular/stylesheet.css");
+@import url("../webfonts/BubblerOne_Regular/stylesheet.css");
+#contenedor {
+	background-image: none;
+	height: 630px;
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+}
+body {
+	background-image: url(../Img/fondo.jpg);
+	background-repeat: repeat;
+	margin-right: auto;
+	margin-left: auto;
+}
+#cabecera {
+	background-image: url(../Img/plano1.jpg);
+	height: 164px;
+	width: 576px;
+	float: right;
+	border: groove 3px #ffffff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-right: 40px;
+}
+
+@charset "UTF-8";
+.cup {
+	float: right;
+}
+
+p1 {
+	font-family: "Playtime With Hot Toddies";
+	color: #552007;
+	font-size: 36px;
+	float: left;
+	margin-left: 80px;
+	clear: left;
+}
+td {
+	color: #59240B;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 50px;
+}
+input {
+	background-color: #F2B4B7;
+	color: #F8EAEB;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-style: 0;
+	border-right-style: 0;
+	border-left-style: 0;
+	text-align: center;
+}
+table {
+	margin-top: 30px;
+	clear: none;
+	float: left;
+	margin-left: 10px;
+}
+#redessociales {
+	height: 52px;
+	width: 130px;
+	float: right;
+	clear: none;
+	margin-right: 210px;
+	margin-top: 20px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: 0;
+	border-right-style: 0;
+	border-bottom-style: 0;
+	border-left-style: 0;
+}
+.calltoaction {
+	background-image: url(../Img/calltoaction.png);
+	height: 58px;
+	width: 305px;
+	font-family: "Blokletters Balpen", "Blokletters Potlood", "Blokletters Viltstift";
+	font-size: 18px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: #FFF;
+}
+p {
+	font-family: "Blokletters Balpen", "Blokletters Potlood", "Blokletters Viltstift";
+	font-size: 18px;
+	color: #541F06;
+	float: left;
+	margin-left: 65px;
+	margin-top: 22px;
+}
+p2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #FCEFEF;
+	margin-left: 112px;
+	float: left;
+	margin-top: 25px;
+	font-size: 16px;
+	text-align: center;
+}
+h1 {
+	font-family: "Blokletters Potlood";
+	font-size: 32px;
+	color: #5B260F;
+	margin-top: 40px;
+	float: left;
+	margin-left: 28px;
+	text-align: center;
+}
+#beneficios {
+	background-image: url(../Img/beneficios.jpg);
+	height: 88px;
+	width: 286px;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+}
+
+	
+
+
+p3 {
+	color: #FAEDEE;
+	margin-top: 40px;
+	float: left;
+	margin-left: 120px;
+	clear: left;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+#testimonios {
+	background-image: url(../Img/testimonios.jpg);
+	height: 166px;
+	width: 304px;
+	margin-top: 30px;
+	border: dotted 2px #f5e9ee;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background-repeat: no-repeat;
+}
+#formulario {
+	background-image: url(../Img/formulario.jpg);
+	height: 288px;
+	width: 466px;
+	float: right;
+	clear: none;
+	margin-top: 49px;
+	background-repeat: no-repeat;
+	margin-right: 60px;
+	-moz-box-shadow: 3px 4px 20px #000000;
+	-webkit-box-shadow: 3px 4px 20px #000000;
+	box-shadow: 3px 4px 20px #000000;
+}
+
+#calltoaction {
+	background-image: url(Img/calltoaction.png);
+	height: 70px;
+	width: 315px;
+	
+	
+	
+}
+#logo {
+	background-image: none;
+	height: 170px;
+	width: 259px;
+	
+	
+}
+.rescate {
+	font-size: 11px;
+	color: #47A868;
+}
